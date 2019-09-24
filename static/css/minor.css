@@ -76,8 +76,8 @@ body{
     height: 650px;
 }
 #slider{
-    width: 1536px;
-    height: 650px;
+    max-width: 1536px;
+    max-height: 650px;
     margin-top: 10px;
     position: relative;
     /*border: 10px solid;

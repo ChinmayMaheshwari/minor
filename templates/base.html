@@ -25,12 +25,13 @@
             <div class="topbar-menu topbar-section">
                     <a href="#">More</a>
                 <input type="image" id="dropdown" src="{% static 'images/dropdown.png' %}" alt="drop">
-            </div>
-            <div class="topbar-menu topbar-section">
 
-            <button id="button1" type="button">REGISTER</button>
-            <button id="button2" type="button">LOGIN</button>
-            <
+            {% if user.is_authenticated %}
+                <a class="nav-item nav-link" href="{% url 'minor_project:logout' %}" type='button'>Logout</a>
+            {% else %}
+            <a class="nav-item nav-link" href="{% url 'minor_project:register' %}">REGISTER</a> 
+            <a class="nav-item nav-link" href="{% url 'minor_project:user_login' %}">LOGIN</a>
+            {% endif %}
         </div>
 
         {% block body_block %}
