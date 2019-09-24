@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% load static %}
+    {% block body_block %}
+
+        <div id="slider">
+                <div id="box">
+                    <img class="myimage1" src="{% static 'images/img1.jpg' %}">
+               </div>
+               <button class="prev fa fa-chevron-left" onclick="prevImage()"></button>
+               <button class="next fa fa-chevron-right" onclick="nextImage()"></button>
+           </div>
+        <div id="secondbar">
+            <img id="img1" src="{% static 'images/a.jpg' %}" alt="">
+                <div class="para1 secondbar-section">
+                    <h2>About Mock-AI<br><br></h2>
+                    <h3 style="color:darkgray">Do you have a job interview coming up and not sure about the preparation?</h3>
+                    <p style="color:darkgray">Take Aspiring Minds Mock-AI to evaluate your interview skills. Get more realistic interview experience of facing<br>the interview that too sitting at home. Assess your suitability for over 20 coveted job roles. Using the latest machine<br>learning and Artificial Intelligence technology, Mock-AI assesses you for your body posture, facial expression<br>and voice modulations.</p>
+                    <p style="color:darkgray">With feedback around your facial expressions,posture and your answers to the questions, we give<br>you a comprehensive feedback on your weak and strong areas to improve.<br> What are you waiting for ? Get assessed and and improve!</p>
+                </div>
+            </div>
+        <div id="thirdbar">
+            <h2 class="head">Product Features</h2>
+            <img class="feature1" src="{% static 'images/feature1.png' %}">
+            <img class="feature1" src="{% static 'images/feature2.png' %}">
+            <img class="feature1" src="{% static 'images/feature3.png' %}">
+            <img class="feature1" src="{% static 'images/feature4.png' %}">
+            <div class="intro">
+                <p>Real Life Interview Experience</p>
+                <p>Answer real interview questions and submit<br>your video as responses to the answers.</p>
+            </div>
+        <div id="fourthbar">
+                <h2 class="head">How it Works</h2>
+        </div>
+        <div id="fifthbar">
+                <img id="img2" src="{% static 'images/b.jpg' %}" alt="">
+                <div class="para2 fifthbar-section">
+                    <h1>Importance of Interview skills<br><br></h1>
+                    <h3 style="color:darkgray">On average, anyone gets rejected twice in interviews before getting a job.</h3>
+                    <p style="color:darkgray">Take Aspiring Minds Mock-AI to evaluate your interview skills. Get more realistic interview experience of facing<br>the interview that too sitting at home. Assess your suitability for over 20 coveted job roles. Using the latest machine<br>learning and Artificial Intelligence technology, Mock-AI assesses you for your body posture, facial expression<br>and voice modulations.</p>
+                    <p style="color:darkgray">With feedback around your facial expressions,posture and your answers to the questions, we give<br>you a comprehensive feedback on your weak and strong areas to improve.<br> What are you waiting for ? Get assessed and and improve!</p>
+        </div>
+        </div>
+        <div id="sixthbar">
+                <img id="img3" src="{% static 'images/c.png' %}" alt="">
+                <div class="para3 sixthbar-section">
+                        <h1>Assess yourself on 20+ job role specific interviews<br><br></h1>
+                        <h3 style="color:darkgray">Do you have a job interview coming up and not sure about the preparation?</h3>
+                        <p style="color:darkgray">Take Aspiring Minds Mock-AI to evaluate your interview skills. Get more realistic interview experience of facing<br>the interview that too sitting at home. Assess your suitability for over 20 coveted job roles. Using the latest machine<br>learning and Artificial Intelligence technology, Mock-AI assesses you for your body posture, facial expression<br>and voice modulations.</p>
+                        <p style="color:darkgray">With feedback around your facial expressions,posture and your answers to the questions, we give<br>you a comprehensive feedback on your weak and strong areas to improve.<br> What are you waiting for ? Get assessed and and improve!</p>
+                    </div>
+                
+        </div>
+{% endblock %}

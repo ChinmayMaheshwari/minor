@@ -1,0 +1,229 @@
+#topbar{
+    width: 1500px;
+    margin: 0px auto;
+    height: 55px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#minorlogo{
+    
+    width: 180px;
+    height: 55px;
+    float: left;
+    margin-right: 200px;
+}
+.topbar-menu{
+  font-weight: bold;
+  color: black;
+  padding: 15px 17px 0px 17px;
+  height: 45%;
+  float: left;
+}
+.topbar-section{
+    float: left;
+    border-left: 1px #cccccc solid;
+    height: 70%;
+    color: white;
+}
+#dropdown{
+   margin-left: 15px;
+   width: 12px;
+   margin-top: 5px;
+}
+.topbar-menu:hover span{
+    color: red;
+}
+#button1{
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    border: 1px rgb(4, 170, 247) solid;
+    margin-top: 10px;
+    margin-left: 240px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+#button2{
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    border: 1px rgb(4, 170, 247) solid;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.topbar #button1 #button2:hover span{
+      background-color: red;
+}
+.secbar{
+    width: 1500px;
+    margin: 0px auto;
+    height: 70px;
+    background-color: rgb(13, 165, 165);
+}
+.myimage1{
+    width: 1500px;
+    height: 600px;
+    border: 10px;
+}
+.myimage2{
+    width: 1536px;
+    height: 650px;
+}
+#slider{
+    width: 1536px;
+    height: 650px;
+    margin-top: 10px;
+    position: relative;
+    /*border: 10px solid;
+    box-shadow: 0px 0px 5px 2px; */
+}
+.prev{
+    padding: 20px;
+    border: none;
+    background:grey;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 40%;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+.next{
+    padding: 20px;
+    border: none;
+    background:grey;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 1484px;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+}
+#secondbar{
+    width: 1536px;
+    margin-top: 10px;
+    height: 330px;
+}
+.para1{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    margin-top: 4px;
+    margin-left: 50px;
+    padding: 15px 17px 0px 17px;
+    height: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#img1{
+    margin-top: 0px;
+    height: 330px;
+    width: 450px;
+}
+.secondbar-section{
+    float: right;
+    margin-right: 80px;
+    position: relative;
+    right: 150px;
+    height: 70%;
+    color:black;
+}
+#thirdbar{
+    width: 1536px;
+    margin-top: 10px;
+    height: 330px;
+    background-color:whitesmoke;
+    
+}
+.head{
+    text-align: center;
+    padding-top: 17px;
+    margin-top: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color:rgba(0, 0, 0, 0.89);
+}
+.feature1{
+    padding-left: 220px;
+    padding-top: 22px;
+}
+.intro{
+    font-size: 15px;
+    padding-top: 23px;
+    font-weight: bold;
+    padding-left: 180px;
+}
+#fourthbar{
+    width: 1536px;
+    margin-top: 10px;
+    height: 330px;
+}
+#fifthbar{
+    width: 1536px;
+    margin-top: 10px;
+    height: 330px;
+    background-color:whitesmoke;
+    
+}
+.para2{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    margin-top: 4px;
+    margin-left: 50px;
+    padding: 15px 17px 0px 17px;
+    height: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#img2{
+    margin-top: 0px;
+    height: 330px;
+    width: 450px;
+    float:right;
+}
+.fifthbar-section{
+    float: left;
+    margin-left: 80px;
+    position: relative;
+    left: 50px;
+    height: 70%;
+    color:black;
+}
+#sixthbar{
+    width: 1536px;
+    margin-top: 10px;
+    height: 330px; 
+}
+#img3{
+    margin-top: 0px;
+    height: 330px;
+    width: 450px;
+    float:left;
+}
+.para3{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    margin-top: 4px;
+    margin-left: 240px;
+    padding: 15px 17px 0px 17px;
+    height: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sixthbar-section{
+    float: left;
+    margin-right: 30px;
+    position: relative;
+    right: 150px;
+    height: 70%;
+    color:black;
+}
+
+
+
