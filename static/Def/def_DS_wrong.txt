@@ -1,0 +1,2 @@
+Data Structure is structuring of data in a particular manner.
+Data Structure is arrangement of data. 

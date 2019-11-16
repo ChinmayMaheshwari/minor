@@ -1,0 +1,6 @@
+A data structure is a particular way of organizing data in a computer so that it can be used effectively.
+a data structure is a data organization, management, and storage format that enables efficient access and modification.
+a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data.
+Data Structure is a way of collecting and organising data in such a way that we can perform operations on these data in an effective way. Data Structures is about rendering data elements in terms of some relationship, for better organization and storage.
+Data structure refers to methods of organizing units of data within larger data sets. Achieving and maintaining specific data structures help improve data access and value. Data structures also help programmers implement various programming tasks.
+Data structure is a way in which data are stored for efficient search and retrieval. Different data structures are suited for different problems. Some data structures are useful for simple general problems, such as retrieving data that has been stored with a specific identifier.

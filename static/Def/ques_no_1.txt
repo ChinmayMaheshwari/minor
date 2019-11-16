@@ -1,0 +1,11 @@
+A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations. The elements in a linked list are linked using pointers
+a linked list consists of nodes where each node contains a data field and a reference(link) to the next node in the list
+Linked List is a sequence of links which contains items. Each link contains a connection to another link. Linked list is the second most-used data structure after array
+A linked list is a linear data structure where each element is a separate object.
+Linked list elements are not stored at contiguous location; the elements are linked using pointers
+A linked list is a linear data structure where each element is a separate object. ach element (we will call it a node) of a list is comprising of two items - the data and a reference to the next node. The last node has a reference to null. The entry point into a linked list is called the head of the list. It should be noted that head is not a separate node, but the reference to the first node. If the list is empty then the head is a null reference
+In computer science, a linked list is a linear collection of data elements, whose order is not given by their physical placement in memory. Instead, each element points to the next. It is a data structure consisting of a collection of nodes which together represent a sequence
+Linked List is a very commonly used linear data structure which consists of group of nodes in a sequence.Each node holds its own data and the address of the next node hence forming a chain like structure.Linked Lists are used to create trees and graphs
+The linked list or one way list is a linear set of data elements which is also termed as nodes. Here, the linear order is specified using pointers
+Linked list is a series of connected "nodes" that contains the "address" of the next node. Each node can store a data point which may be a number, a string or any other type of data
+Linked list is a linear collection of data elements, called nodes pointing to the next node by means of a pointer. It is a data structure consisting of a group of nodes which together represent a sequence

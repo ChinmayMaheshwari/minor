@@ -1,0 +1,12 @@
+The process in which a function calls itself directly or indirectly is called recursion and the corresponding function is called as recursive function. Using recursive algorithm, certain problems can be solved quite easily
+Recursion is a method of solving problems that involves breaking a problem down into smaller and smaller subproblems until you get to a small enough problem that it can be solved trivially. Usually recursion involves a function calling itself. While it may not seem like much on the surface, recursion allows us to write elegant solutions to problems that may otherwise be very difficult to program
+Recursion in computer science is a method of solving a problem where the solution depends on solutions to smaller instances of the same problem (as opposed to iteration).The approach can be applied to many types of problems, and recursion is one of the central ideas of computer science
+recursive algorithms break down a problem into smaller pieces which you either already know the answer to, or can solve by applying the same algorithm to each piece, and then combining the results
+Recursion is a process in which a function calls itself as a subroutine. This allows the function to be repeated several times, since it calls itself during its execution. Functions that incorporate recursion are called recursive functions
+Recursion is a wonderful programming tool. It provides a simple, powerful way of approaching a variety of problems. It is often hard, however, to see how a problem can be approached recursively; it can be hard to “think” recursively
+Recursion is a common method of simplifying a problem into subproblems of same type. This is called divide and conquer technique
+Recursion is the process of defining a problemin terms of itself
+Recursion simply means “self reference”. When something refers to itself or describes itself, it is called recursive
+Recursion is the process of repeating items in a self-similar way. In programming languages, if a program allows you to call a function inside the same function
+
+
